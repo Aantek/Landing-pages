@@ -1,17 +1,21 @@
-
 <template>
-  <NavBar></NavBar>
+  <div class="w-screen">
+    <NavBar></NavBar>
+    <TextImgSection></TextImgSection>
+  </div>
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
+import NavBar from '@/components/NavBar.vue';
+import TextImgSection from '@/components/TextImgSection.vue';
 export default {
   name: 'HomeView',
   components: {
-    NavBar
+    NavBar,
+    TextImgSection,
   }
 }
-</script>
+</script> 
 
 <style>
 

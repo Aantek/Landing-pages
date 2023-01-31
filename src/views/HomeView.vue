@@ -1,32 +1,18 @@
+
 <template>
-  <nav class="border-gray-200 px-2 sm:px-4 py-2.5 bg-gray-900">
-    <div class="container flex flex-wrap items-center justify-between mx-auto">
-      <a href="">
-        <span class="text-white text-xl font-semibold">Webiste logo</span>
-      </a>
-      <a href="">
-        <span class="text-white text-xl font-semibold">Webiste logo</span>
-      </a>
-      <a href="">
-        <span class="text-white text-xl font-semibold">Webiste logo</span>
-      </a>
-    </div>
-  </nav>
+  <NavBar></NavBar>
 </template>
 
 <script>
-// @ is an alias to /src
-// import RandomCom from '@/components/RandomCom.vue'
-
+import NavBar from '@/components/NavBar.vue'
 export default {
-  // name: 'HomeView',
-  // components: {
-  //   RandomCom
-  // }
+  name: 'HomeView',
+  components: {
+    NavBar
+  }
 }
 </script>
-<style scoped>
-*{
-  margin: 0 auto;
-}
+
+<style>
+
 </style>
